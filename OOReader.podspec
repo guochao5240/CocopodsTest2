@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = "OOReader/*.{h,m}"
-  s.vendored_library = 'OOReader/OOReader'
+  s.vendored_library = 'OOReader/OOReader.framework'
   s.resources = ["OOReader/*.bundle"]
   #s.frameworks = 'SystemConfiguration', 'MobileCoreServices','CFNetwork','CoreTelephony'
   s.libraries = 'xml2'
