@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   s.author             = { "guochao" => "5240867078@qq.com" }  #作者
   s.platform     = :ios, "8.0"                  #支持的平台和版本号
   s.source       = { :git => "https://github.com/guochao5240/CocopodsTest2.git", :tag => "0.0.1" }         #存储库的git地址，以及tag值
-  s.source_files  =  "../OOReader/Headers/*.{h,m}" #需要托管的源代码路径
+  s.source_files  =  "OOReader/Headers/*.{h,m}" #需要托管的源代码路径
+  s.source_files = "OOReader/*"
   s.requires_arc = true #是否支持ARC
 
 end
