@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version  = '0.0.1'
   s.license  = 'MIT'
   s.summary  = 'OOReader for iOS8+'
-  s.homepage = 'https://git.zhuishushenqi.com/guochao/OOReader'
+  s.homepage = 'https://github.com/guochao5240/CocopodsTest2.git'
   s.social_media_url = 'https://test'
   s.authors  = { 'guochao' => '524086708@qq.com' }
   s.source   = { :git => 'https://github.com/guochao5240/CocopodsTest2.git', :tag => s.version, :submodules => true }
