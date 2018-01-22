@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
   #s.frameworks = 'SystemConfiguration', 'MobileCoreServices','CFNetwork','CoreTelephony'
   s.libraries = 'xml2'
 end
-~                                                                                                                                                      
-~                                                                                                                                                      
-~                
+~
+
