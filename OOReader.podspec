@@ -4,14 +4,14 @@ Pod::Spec.new do |s|
   s.license  = 'MIT'
   s.summary  = 'OOReader for iOS8+'
   s.homepage = 'https://github.com/guochao5240/CocopodsTest2.git'
-  s.social_media_url = 'https://test'
+  s.social_media_url = 'https://www.baidu.com'
   s.authors  = { 'guochao' => '524086708@qq.com' }
   s.source   = { :git => 'https://github.com/guochao5240/CocopodsTest2.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = "OOReader/*.{h,m}"
+  s.source_files = "**/OOReader/*.{h,m}"
   s.vendored_library = 'OOReader/OOReader.framework'
   s.resources = ["OOReader/*.bundle"]
   #s.frameworks = 'SystemConfiguration', 'MobileCoreServices','CFNetwork','CoreTelephony'
