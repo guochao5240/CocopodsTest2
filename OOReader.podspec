@@ -1,16 +1,22 @@
 Pod::Spec.new do |s|
-  s.name         = "OOReader"    #存储库名称
-  s.version      = "0.0.1"      #版本号，与tag值一致
-  s.summary      = "epub阅读器"  #简介
-  s.description  = "一个epub阅读器"  #描述
-  s.homepage     = "https://github.com/xiaowu2016/RepositoryDemonstration"      #项目主页，不是git地址
-  s.license      = { :type => "MIT", :file => "LICENSE" }   #开源协议
-  s.author             = { "guochao" => "5240867078@qq.com" }  #作者
-  s.platform     = :ios, "8.0"                  #支持的平台和版本号
-  s.source       = { :git => "https://github.com/guochao5240/CocopodsTest2.git", :tag => "0.0.1" }         #存储库的git地址，以及tag值
-  s.source_files  =  "OOReader/Headers/*.{h,m}" #需要托管的源代码路径
-  s.source_files = "OOReader/*"
-  s.requires_arc = true #是否支持ARC
+  s.name     = 'OOReader'
+  s.version  = '0.0.1'
+  s.license  = 'MIT'
+  s.summary  = 'OOReader for iOS8+'
+  s.homepage = 'https://git.zhuishushenqi.com/guochao/OOReader'
+  s.social_media_url = 'https://test'
+  s.authors  = { 'guochao' => '524086708@qq.com' }
+  s.source   = { :git => 'https://github.com/guochao5240/CocopodsTest2.git', :tag => s.version, :submodules => true }
+  s.requires_arc = true
 
+  s.ios.deployment_target = '8.0'
+
+  s.source_files = "OOReader/*.{h,m}"
+  s.vendored_library = 'OOReader/OOReader'
+  s.resources = ["OOReader/*.bundle"]
+  #s.frameworks = 'SystemConfiguration', 'MobileCoreServices','CFNetwork','CoreTelephony'
+  s.libraries = 'xml2'
 end
-
+~                                                                                                                                                      
+~                                                                                                                                                      
+~                
